@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container-header {
+  background-color: #e9ecf3;
+}
+.details {
+  display: grid;
+  background-color: whitesmoke;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 2fr 7fr 1fr;
+}
+.one {
+  grid-area: 1/1/3/5;
+  background-color: #884f8d;
+}
+.two {
+  grid-area: 2/2/3/3;
+  margin-bottom: 10px;
+}
+.three {
+  background-color: rgb(239, 236, 239);
+  grid-area: 2/3/3/4;
+  margin-bottom: 10px;
+}
+.four {
+  grid-area: 3/2/4/4;
+  background-color: rgb(57, 21, 115);
+}
+#years {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: end;
+  margin: 0;
+  padding: 0;
+}
+.Skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  column-gap: 25px;
+  row-gap: 10px;
+  width: auto;
+  height: auto;
+  padding-top: 2px;
+}
+.sk1 {
+  grid-area: 1/1/2/2;
+}
+.sk2 {
+  grid-area: 2/1/3/2;
+}
+.sk3 {
+  grid-area: 3/1/4/2;
+}
+.sk4 {
+  grid-area: 1/2/2/3;
+}
+.sk5 {
+  grid-area: 2/2/3/3;
+}
+.sk6 {
+  grid-area: 3/2/3/3;
+}
+.sk1,
+.sk2,
+.sk3,
+.sk4,
+.sk5,
+.sk6 {
+  display: flex;
+  background-color: #561261;
+  color: white;
+  text-align: center;
+  max-width: auto;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  height: 60px;
+}
